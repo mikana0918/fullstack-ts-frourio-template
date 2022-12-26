@@ -16,7 +16,7 @@ services:
         source: mysql-data
         target: /var/lib/mysql
       - type: bind
-        source: ./init
+        source: ./docker/mysql/init
         target: /docker-entrypoint-initdb.d
     ports:
       - 3306:3306
