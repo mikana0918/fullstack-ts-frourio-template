@@ -1,0 +1,3 @@
+volumes:
+  mysql-data:
+    name: frourio-sample
